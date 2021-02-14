@@ -1,23 +1,23 @@
-# README
+# ReadMe Generator
   ## Table of Contents
-  [Description](https://github.com/CaitlinCollins/README#description)
+  [Description](https://github.com/CaitlinCollins/ReadMe Generator#description)
 
-  [Installation](https://github.com/CaitlinCollins/README#installation)
+  [Installation](https://github.com/CaitlinCollins/ReadMe Generator#installation)
 
-  [Usage](https://github.com/CaitlinCollins/README#usage)
+  [Usage](https://github.com/CaitlinCollins/ReadMe Generator#usage)
 
-  [Contributing](https://github.com/CaitlinCollins/README#contributing)
+  [Contributing](https://github.com/CaitlinCollins/ReadMe Generator#contributing)
 
-  [Tests](https://github.com/CaitlinCollins/README#tests)
+  [Tests](https://github.com/CaitlinCollins/ReadMe Generator#tests)
 
-  [License](https://github.com/CaitlinCollins/README#license)
+  [License](https://github.com/CaitlinCollins/ReadMe Generator#license)
 
-  [Contact](https://github.com/CaitlinCollins/README#contact)
+  [Contact](https://github.com/CaitlinCollins/ReadMe Generator#contact)
 
   ## Description
-  This is a readme generator.
+  This app generates a ReadME.md based on user input.
   ## Installation
-  Install inquirer.
+  Install inquierer npm.
   ## Usage
   None.
   ## Contributing
@@ -28,4 +28,5 @@
   MIT
   ## Contact
   GitHub: @CaitlinCollins
+
   Email: caitlin.aileen86@gmail.com
