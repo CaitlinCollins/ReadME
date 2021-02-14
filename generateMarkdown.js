@@ -1,9 +1,13 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
+const fs = require("fs");
 const githubLicense = require("@danieldietrich/github-license");
-const data = require('./index.js');
+let get = require('./index.js');
 
+  fs.writeFile("README.md", get.fileBody, (err) =>
+      err ? console.log(err) : console.log("File Written!")
+    );
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {
+function renderLicenseBadge() {
   switch (license) {
     case "MIT":
     response = "MIT";

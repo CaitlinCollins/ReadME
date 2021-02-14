@@ -1,6 +1,5 @@
 const fs = require("fs");
 const inquirer = require('inquirer');
-const markdown = require("./generateMarkdown.js");
 
 inquirer.prompt([
     {
@@ -95,10 +94,14 @@ inquirer.prompt([
 
   Email: ${email}`
 
-    fs.writeFile("README.md", fileBody, (err) =>
-      err ? console.log(err) : console.log("File Written!")
-    )
-  });
+    // fs.writeFile("README.md", fileBody, (err) =>
+    //   err ? console.log(err) : console.log("File Written!")
+    // )
+});
+
+module.exports = 
+fileBody,
+license;
 
 
    
