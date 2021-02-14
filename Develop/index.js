@@ -66,23 +66,10 @@ inquirer.prompt([
     },
   ]).then((data) => {
     console.log(data);
-    const title = data.title;
-    const description = data.description;
-    const installation = data.installation;
-    const usage = data.usage;
-    const contributing = data.contributing;
-    const tests = data.tests;
-    const license = data.license;
-    const github = data.github;
-    const email = data.email;
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    generateMarkdown();
-    fs.writeFile("README.md", data, (err) =>
-      err ? console.log(err) : console.log("File Written!")
-    )
-}
+    generateMarkdown(data);
+    // TODO: Create a function to write README file
+    fs.writeFile("README.md", generateMarkdown(data), (err) =>
+      err ? console.log(err) : console.log("File Written!"))
 
 // TODO: Create a function to initialize app
 function init() {
@@ -91,5 +78,4 @@ function init() {
 
 // Function call to initialize app
 init();
-
 });

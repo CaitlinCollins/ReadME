@@ -12,38 +12,38 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${title}
+  return `# ${data.title}
   ## Table of Contents
-  [Description](https://github.com/${github}/${title}#description)
+  [Description](https://github.com/${data.github}/${data.title}#description)
 
-  [Installation](https://github.com/${github}/${title}#installation)
+  [Installation](https://github.com/${data.github}/${data.title}#installation)
 
-  [Usage](https://github.com/${github}/${title}#usage)
+  [Usage](https://github.com/${data.github}/${data.title}#usage)
 
-  [Contributing](https://github.com/${github}/${title}#contributing)
+  [Contributing](https://github.com/${data.github}/${data.title}#contributing)
 
-  [Tests](https://github.com/${github}/${title}#tests)
+  [Tests](https://github.com/${data.github}/${data.title}#tests)
 
-  [License](https://github.com/${github}/${title}#license)
+  [License](https://github.com/${data.github}/${data.title}#license)
 
-  [Contact](https://github.com/${github}/${title}#contact)
+  [Contact](https://github.com/${data.github}/${data.title}#contact)
 
   ## Description
-  ${description}
+  ${data.description}
   ## Installation
-  ${installation}
+  ${data.installation}
   ## Usage
-  ${usage}
+  ${data.usage}
   ## Contributing
-  ${contributing}
+  ${data.contributing}
   ## Tests
-  ${tests}
+  ${data.tests}
   ## License
-  ${license}
+  ${data.license}
   ## Contact
-  GitHub: @${github}
+  GitHub: @${data.github}
 
-  Email: ${email}
+  Email: ${data.email}
 `;
 };
 
