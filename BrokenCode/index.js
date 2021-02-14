@@ -94,9 +94,9 @@ inquirer.prompt([
 
   Email: ${email}`
 
-    // fs.writeFile("README.md", fileBody, (err) =>
-    //   err ? console.log(err) : console.log("File Written!")
-    // )
+    fs.writeFile("README.md", fileBody, (err) =>
+      err ? console.log(err) : console.log("File Written!")
+    )
 });
 
 module.exports = 
