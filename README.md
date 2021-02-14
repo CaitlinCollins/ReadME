@@ -1,24 +1,31 @@
-# ReadME
+# README
   ## Table of Contents
-  [Description](https://github.com/CaitlinCollins/ReadME#description)
-  [Installation](https://github.com/CaitlinCollins/ReadME#installation)
-  [Usage](https://github.com/CaitlinCollins/ReadME#usage)
-  [Contributing](https://github.com/CaitlinCollins/ReadME#contributing)
-  [Tests](https://github.com/CaitlinCollins/ReadME#tests)
-  [License](https://github.com/CaitlinCollins/ReadME#license)
-  [Contact](https://github.com/CaitlinCollins/ReadME#contact)
+  [Description](https://github.com/CaitlinCollins/README#description)
+
+  [Installation](https://github.com/CaitlinCollins/README#installation)
+
+  [Usage](https://github.com/CaitlinCollins/README#usage)
+
+  [Contributing](https://github.com/CaitlinCollins/README#contributing)
+
+  [Tests](https://github.com/CaitlinCollins/README#tests)
+
+  [License](https://github.com/CaitlinCollins/README#license)
+
+  [Contact](https://github.com/CaitlinCollins/README#contact)
+
   ## Description
-  This is a ReadME generator
+  This is a readme generator.
   ## Installation
-  install npm inquirer
+  Install inquirer.
   ## Usage
-  none.
+  None.
   ## Contributing
-  none.
+  None.
   ## Tests
-  none.
+  None.
   ## License
   MIT
   ## Contact
-  CaitlinCollins
-  caitlin.aileen86@gmail.com
+  GitHub: @CaitlinCollins
+  Email: caitlin.aileen86@gmail.com

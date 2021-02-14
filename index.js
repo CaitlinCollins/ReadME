@@ -75,12 +75,19 @@ inquirer.prompt([
     `# ${title}
   ## Table of Contents
   [Description](https://github.com/${github}/${title}#description)
+
   [Installation](https://github.com/${github}/${title}#installation)
+
   [Usage](https://github.com/${github}/${title}#usage)
+
   [Contributing](https://github.com/${github}/${title}#contributing)
+
   [Tests](https://github.com/${github}/${title}#tests)
+
   [License](https://github.com/${github}/${title}#license)
+
   [Contact](https://github.com/${github}/${title}#contact)
+
   ## Description
   ${description}
   ## Installation
@@ -94,8 +101,8 @@ inquirer.prompt([
   ## License
   ${license}
   ## Contact
-  ${github}
-  ${email}`
+  GitHub: @${github}
+  Email: ${email}`
 
     fs.writeFile("README.md", fileBody, (err) =>
       err ? console.log(err) : console.log("File Written!")
