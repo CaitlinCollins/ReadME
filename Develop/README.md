@@ -1,21 +1,23 @@
 # Hi
+
+
   ## Table of Contents
-  [Description](https://github.com/Hi/Hi#description)
+  [Description](https://github.com/HI/Hi#description)
 
-  [Installation](https://github.com/Hi/Hi#installation)
+  [Installation](https://github.com/HI/Hi#installation)
 
-  [Usage](https://github.com/Hi/Hi#usage)
+  [Usage](https://github.com/HI/Hi#usage)
 
-  [Contributing](https://github.com/Hi/Hi#contributing)
+  [Contributing](https://github.com/HI/Hi#contributing)
 
-  [Tests](https://github.com/Hi/Hi#tests)
+  [Tests](https://github.com/HI/Hi#tests)
 
-  [License](https://github.com/Hi/Hi#license)
+  [License](https://github.com/HI/Hi#license)
 
-  [Contact](https://github.com/Hi/Hi#contact)
+  [Contact](https://github.com/HI/Hi#contact)
 
   ## Description
-  HI
+  Hi
   ## Installation
   HI
   ## Usage
@@ -25,8 +27,8 @@
   ## Tests
   HI
   ## License
-  MIT
+  
   ## Contact
-  GitHub: @Hi
+  GitHub: @HI
 
   Email: HI

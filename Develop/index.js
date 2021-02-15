@@ -2,7 +2,8 @@
 const fs = require("fs");
 const inquirer = require('inquirer');
 const generateMarkdown = require("../Develop/utils/generateMarkdown.js");
-const gen = require('../Develop/utils/generateMarkdown.js');
+const renderLicenseSection = require("../Develop/utils/generateMarkdown.js");
+const renderLicenseBadge = require("../Develop/utils/generateMarkdown.js");
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -52,7 +53,7 @@ inquirer.prompt([
       type: 'list',
       name: 'license',
       message: questions[6],
-      choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'Unlicense', 'None']
+      choices: ['MIT', 'Apache-2.0', 'GPL-3.0', 'Unlicense', 'None']
     },
     {
       type: 'input',
@@ -65,17 +66,21 @@ inquirer.prompt([
       message: questions[8],
     },
   ]).then((data) => {
-    console.log(data);
+    console.log(data.license);
+    renderLicenseSection(data);
+    renderLicenseBadge(data);
     generateMarkdown(data);
-    // TODO: Create a function to write README file
-    fs.writeFile("README.md", generateMarkdown(data), (err) =>
-      err ? console.log(err) : console.log("File Written!"))
+    
 
+// TODO: Create a function to write README file
+function writeToFile(){
+fs.writeFile("README.md", generateMarkdown(data), (err) =>
+    err ? console.log(err) : console.log("File Written!"))
+};
 // TODO: Create a function to initialize app
 function init() {
     writeToFile();
 }
-
 // Function call to initialize app
 init();
 });
