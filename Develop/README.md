@@ -1,20 +1,20 @@
-# Hi
-  
+# HI
+  [![license](https://img.shields.io/github/license/CaitlinCollins/captain-n3m0.svg?style=flat-square)]
 
   ## Table of Contents
-  [Description](https://github.com/HI/Hi#description)
+  [Description](https://github.com/HI/HI#description)
 
-  [Installation](https://github.com/HI/Hi#installation)
+  [Installation](https://github.com/HI/HI#installation)
 
-  [Usage](https://github.com/HI/Hi#usage)
+  [Usage](https://github.com/HI/HI#usage)
 
-  [Contributing](https://github.com/HI/Hi#contributing)
+  [Contributing](https://github.com/HI/HI#contributing)
 
-  [Tests](https://github.com/HI/Hi#tests)
+  [Tests](https://github.com/HI/HI#tests)
 
-  [License](https://github.com/HI/Hi#license)
+  [License](https://github.com/HI/HI#license)
 
-  [Contact](https://github.com/HI/Hi#contact)
+  [Contact](https://github.com/HI/HI#contact)
 
   ## Description
   HI
@@ -27,7 +27,7 @@
   ## Tests
   HI
   ## License
-  
+  [object Promise]
   ## Contact
   GitHub: @HI
 
