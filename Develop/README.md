@@ -1,5 +1,5 @@
 # HI
-  [![license](https://img.shields.io/github/license/CaitlinCollins/captain-n3m0.svg?style=flat-square)]
+  [![license](https://img.shields.io/github/license/CaitlinCollins/ReadME.svg?style=flat-square)]
 
   ## Table of Contents
   [Description](https://github.com/HI/HI#description)
