@@ -2,9 +2,11 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 const shields = require('shields')();
+
 function renderLicenseBadge(data) {
+  var newShield = "";
   if (data.license === "MIT") {
-    newSheild = `[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)`
+    newShield = `[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)`
 }
 //   else if (data.license === 'Apache-2.0'){
 //     newSheild = `[![license](https://img.shields.io/hexpm/l/plug)`
@@ -18,6 +20,7 @@ function renderLicenseBadge(data) {
 //   else {
 //     newSheild = '';
 // };
+return newShield;
 }
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -52,7 +55,7 @@ function renderLicenseSection(data) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  ${newSheild}
+  ${newShield}
 
   ## Table of Contents
   [Description](https://github.com/${data.github}/${data.title}#description)
