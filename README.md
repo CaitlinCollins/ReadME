@@ -1,5 +1,5 @@
 # 
-  [![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Table of Contents
   [Description](https://github.com//#description)
@@ -27,7 +27,7 @@
   ## Tests
   
   ## License
-  Eclipse
+  undefined
   ## Contact
   GitHub: @
 
