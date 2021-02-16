@@ -1,28 +1,31 @@
 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-const shields = require('shields')();
 const githubLicense = require("@danieldietrich/github-license");
 
 function renderLicenseBadge(data) {
-  var newShield = "";
+  console.log(data.license);
+  let newShield;
   if (data.license === "MIT") {
-    newShield = `[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)`
+    newShield = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
 }
-  else if (data.license === 'Apache-2.0'){
-    newSheild = `[![license](https://img.shields.io/hexpm/l/plug)`
+  else if (data.license === "Apache-2.0"){
+    newSheild = `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
 }
-//   else if (data.license == "GPL-3.0") {
-//     newSheild = shields("GPL-3.0", {repo: "README.md"});
-// }
-//   else if (data.license == "Unlicense") {
-//     newSheild = shields("Unlicense", {repo: "README.md"});
-// }
+  else if (data.license == "IBM") {
+    newSheild = `[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)`;
+}
+  else if (data.license == "Eclipse") {
+    newSheild = `[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)`;
+}
+  else if (data.license == "Mozilla") { 
+    newSheild = `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`;
+}
   else {
-    newSheild = '';
-};
+    newSheild = "";
+  };
 return newShield;
-}
+};
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {}
@@ -30,32 +33,31 @@ function renderLicenseLink(license) {}
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 let newLicense = "";
-function renderLicenseSection(data) {
-  if (data.license === "MIT") {
-      newLicense = githubLicense('MIT');
-      console.log(newLicense);
-  }
-  else if (data.license === "Apache-2.0"){
-      newLicense = githubLicense('Apache-2.0');
-      console.log(newLicense);
-  }
-    else if (data.license === "GPL-3.0") {
-      newLicense = githubLicense('GPL-3.0');
-      console.log(newLicense);
-  }
-    else if (data.license === "Unlicense") {
-      newLicense = githubLicense('Unlicense');
-      console.log(newLicense);
-  }
-    else {
-    newLicense = "";
-    console.log(newLicense);
-  };
-  return newLicense;
-}
+// async function renderLicenseSection(data) {
+//   if (data.license === "MIT") {
+//         const newLicense = await githubLicense('MIT');
+//          return newLicense;
+//   }
+//   else if (data.license === "Apache-2.0"){
+//       newLicense = githubLicense('Apache-2.0');
+//       console.log(newLicense);
+//   }
+//     else if (data.license === "GPL-3.0") {
+//       newLicense = githubLicense('GPL-3.0');
+//       console.log(newLicense);
+//   }
+//     else if (data.license === "Unlicense") {
+//       newLicense = githubLicense('Unlicense');
+//       console.log(newLicense);
+//   }
+//     else {
+//     newLicense = "";
+//     console.log(newLicense);
+//   };
+// }
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
+  function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data)}
 
@@ -85,7 +87,7 @@ function generateMarkdown(data) {
   ## Tests
   ${data.tests}
   ## License
-  ${renderLicenseSection(data)}
+  ${data.license}
   ## Contact
   GitHub: @${data.github}
 
@@ -93,4 +95,4 @@ function generateMarkdown(data) {
 `;
 };
 
-module.exports = generateMarkdown, renderLicenseBadge(shields), renderLicenseSection;
+module.exports = generateMarkdown
