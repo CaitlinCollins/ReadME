@@ -1,5 +1,4 @@
 
-const fs = require("fs");
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 // TODO: Create a function that returns the license link
@@ -41,38 +40,19 @@ return newShield;
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-let newLicense = "";
 function renderLicenseSection(data) {
-  const axios = require('axios');
-
-  if (data.license === "MIT") {
-    axios.get('https://api.github.com/licenses/mit')
-    .then(function (response) {
-      // handle success
-      console.log(response.data.body);
-      newLicense = response.data.body;
-    })
-    .catch(function (error) {
-      // handle error
-      console.log(error);
-    })
+  let newLicense;
+  if (data.license === "None") {
+    newLicesnse = "";
   }
-  // else if (data.license === "Apache-2.0"){
-  //     newLicense = githubLicense('Apache-2.0');
-  // }
-  // else if (data.license === "GPL-3.0") {
-  //     newLicense = githubLicense('GPL-3.0');
-  // }
-  // else if (data.license === "Unlicense") {
-  //     newLicense = githubLicense('Unlicense');
-  // }
   else {
-    newLicense = "";
+    newLicense = `This project is protected under the ${data.license} license.`;
   };
+  return newLicense;
 }
 
 // TODO: Create a function to generate markdown for README
-  function generateMarkdown(data, newLicense) {
+  function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data)}
 

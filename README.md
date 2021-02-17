@@ -27,7 +27,7 @@
   ## Tests
   
   ## License
-  undefined
+  This project is protected under the MIT license.
   ## Contact
   GitHub: @
 
