@@ -16,7 +16,8 @@ const questions = [
     'What is your GitHub username?',
     'What is your email address?',
 ];
-    
+
+// Question Prompts
 inquirer.prompt([
     {
       type: 'input',
