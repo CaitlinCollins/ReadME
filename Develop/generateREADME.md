@@ -1,5 +1,5 @@
 # ReadME
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## Table of Contents
   [Description](https://github.com/CaitlinCollins/ReadME#description)
@@ -17,18 +17,18 @@
   [Contact](https://github.com/CaitlinCollins/ReadME#contact)
 
   ## Description
-  This project generates a ReadMe file from the command line using the inquirer module.
+  This project generates a README.md file from the command line by using inquirer.
   ## Installation
   Install inquirer
   ## Usage
   none.
   ## Contributing
-  None
+  none.
   ## Tests
   none.
   ## License
-  This project is protected under the MIT license.
+  This project is protected under the Apache-2.0 license.
   ## Contact
   GitHub: @CaitlinCollins
 
-  Email: caitlin.aileen86@gmail.com
+  Email: cailtin.aileen86@gmail.com
