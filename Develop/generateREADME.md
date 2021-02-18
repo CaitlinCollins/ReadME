@@ -1,27 +1,27 @@
-# README
+# ReadME
   [![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
 
   ## Table of Contents
-  [Description](https://github.com/CaitlinColllins/README#description)
+  [Description](https://github.com/CaitlinCollins/ReadME#description)
 
-  [Installation](https://github.com/CaitlinColllins/README#installation)
+  [Installation](https://github.com/CaitlinCollins/ReadME#installation)
 
-  [Usage](https://github.com/CaitlinColllins/README#usage)
+  [Usage](https://github.com/CaitlinCollins/ReadME#usage)
 
-  [Contributing](https://github.com/CaitlinColllins/README#contributing)
+  [Contributing](https://github.com/CaitlinCollins/ReadME#contributing)
 
-  [Tests](https://github.com/CaitlinColllins/README#tests)
+  [Tests](https://github.com/CaitlinCollins/ReadME#tests)
 
-  [License](https://github.com/CaitlinColllins/README#license)
+  [License](https://github.com/CaitlinCollins/ReadME#license)
 
-  [Contact](https://github.com/CaitlinColllins/README#contact)
+  [Contact](https://github.com/CaitlinCollins/ReadME#contact)
 
   ## Description
-  This project generates a README.md file from command line input using inquirer.
+  Generates a README.md file from the input receiving on the command line.
   ## Installation
-  Install node.js and the inquirer npm module.
+  Install Node.js and inquirer npm package.
   ## Usage
-  Run from the command line.
+  Run in terminal.
   ## Contributing
   None.
   ## Tests
@@ -29,6 +29,6 @@
   ## License
   This project is protected under the Eclipse license.
   ## Contact
-  GitHub: @CaitlinColllins
+  GitHub: @CaitlinCollins
 
   Email: caitlin.aileen86@gmail.com
