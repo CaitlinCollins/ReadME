@@ -15,6 +15,8 @@
   [Contributing](https://github.com//#contributing)
 
   [Tests](https://github.com//#tests)
+  
+  [Screenshots](https://github.com//#screenshots)
 
   [License](https://github.com//#license)
 
@@ -34,6 +36,10 @@
 
   ## Tests
   No specified testing information. 
+  
+  ##Screenshots
+  [gen1]
+  [gen2]
 
   ## License
   This project is protected under the MIT license.
