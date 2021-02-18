@@ -12,7 +12,7 @@
 
   [Tests](https://github.com/CaitlinColllins/ReadME#tests)
   
-  [Screenshots](https://github.com/CaitlinColllins/Screenshots)
+  [Screenshots](https://github.com/CaitlinCollins/ReadME/blob/main/Develop/generateREADME.md#screenshots)
 
   [License](https://github.com/CaitlinColllins/ReadME#license)
 
