@@ -16,7 +16,7 @@
 
   [Tests](https://github.com//#tests)
   
-  [Screenshots](https://github.com//#screenshots)
+  [Screenshots](https://github.com/CaitlinCollins/ReadME#screenshots)
 
   [License](https://github.com//#license)
 
