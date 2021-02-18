@@ -12,7 +12,7 @@
 
   [Tests](https://github.com/CaitlinColllins/ReadME#tests)
   
-  [Screenshots](https://github.com/CaitlinColllins/Screen-Shots)
+  [Screenshots](https://github.com/CaitlinColllins/Screenshots)
 
   [License](https://github.com/CaitlinColllins/ReadME#license)
 
@@ -28,7 +28,7 @@
   None.
   ## Tests
   None.
-  ## Screen Shots ##
+  ## Screenshots ##
   ![Gen1](https://github.com/CaitlinCollins/ReadMA/blob/main/assets/gen1.png)
   ![Gen2](https://github.com/CaitlinCollins/ReadMA/blob/main/assets/gen2.png)
   ## License
