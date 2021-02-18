@@ -38,8 +38,14 @@
   No specified testing information. 
   
   ## Screenshots
-  [gen1]
-  [gen2]
+  
+  ### Input 
+  
+  [gen1](https://github.com/CaitlinCollins/ReadME/blob/main/assets/gen1.png)
+  
+  ### Results
+  
+  [gen2](https://github.com/CaitlinCollins/ReadME/blob/main/assets/gen2.png)
 
   ## License
   This project is protected under the MIT license.
