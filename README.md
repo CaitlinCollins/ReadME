@@ -1,8 +1,8 @@
 # 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  ## Vido Link of Application
-
+  ## Video Link of Application
+  [README_Generator_Recording]
 
   ## Table of Contents
   [Description](https://github.com//#description)
