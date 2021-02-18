@@ -1,33 +1,33 @@
-# ReadME
-  [![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
+# ReadMe
+  [![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
 
   ## Table of Contents
-  [Description](https://github.com/CaitlinCollins/ReadME#description)
+  [Description](https://github.com/CaitlinCollins/ReadMe#description)
 
-  [Installation](https://github.com/CaitlinCollins/ReadME#installation)
+  [Installation](https://github.com/CaitlinCollins/ReadMe#installation)
 
-  [Usage](https://github.com/CaitlinCollins/ReadME#usage)
+  [Usage](https://github.com/CaitlinCollins/ReadMe#usage)
 
-  [Contributing](https://github.com/CaitlinCollins/ReadME#contributing)
+  [Contributing](https://github.com/CaitlinCollins/ReadMe#contributing)
 
-  [Tests](https://github.com/CaitlinCollins/ReadME#tests)
+  [Tests](https://github.com/CaitlinCollins/ReadMe#tests)
 
-  [License](https://github.com/CaitlinCollins/ReadME#license)
+  [License](https://github.com/CaitlinCollins/ReadMe#license)
 
-  [Contact](https://github.com/CaitlinCollins/ReadME#contact)
+  [Contact](https://github.com/CaitlinCollins/ReadMe#contact)
 
   ## Description
-  Generates a README.md file from the input receiving on the command line.
+  This project generates a ReadMe.md file from command line input using inquirer.
   ## Installation
-  Install Node.js and inquirer npm package.
+  Install node.js and the inquirer npm package.
   ## Usage
-  Run in terminal.
+  Run from the command line.
   ## Contributing
   None.
   ## Tests
   None.
   ## License
-  This project is protected under the Eclipse license.
+  This project is protected under the IBM license.
   ## Contact
   GitHub: @CaitlinCollins
 
