@@ -90,4 +90,4 @@ function renderLicenseSection(data) {
 `;
 };
 
-module.exports = generateMarkdown, renderLicenseSection
+module.exports = generateMarkdown
