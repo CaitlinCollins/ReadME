@@ -2,7 +2,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Video Link of Application
-  ![README_Generator_Recording](https://github.com/CaitlinCollins/ReadME/blob/main/Develop/assets/README_Generator_Recording.mov)
+  https://youtu.be/fO8iRM3iNn0
 
   ## Table of Contents
   [Description](https://github.com//#description)
